@@ -1,17 +1,53 @@
-# wristfit_ai
+# LugMetric
 
-A new Flutter project.
+LugMetric is an engineering-grade watch fit analysis and AR preview mobile application built with Flutter.
 
-## Getting Started
+It allows users to:
 
-This project is a starting point for a Flutter application.
+- Calibrate wrist size using a credit card reference
+- Measure wrist width accurately
+- Get ideal dial and lug-to-lug recommendations
+- Visualize circular and rectangular watches in AR
+- Analyze fit balance and overhang risk
 
-A few resources to get you started if this is your first Flutter project:
+---
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+## How It Works
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+1. User captures wrist photo with credit card in frame.
+2. App calibrates real-world scale using card dimensions.
+3. Wrist width is measured.
+4. Fit analysis calculates ideal dial and lug-to-lug ranges.
+5. AR preview visualizes recommended sizes.
+
+---
+
+## Tech Stack
+
+- Flutter
+- Camera package
+- Vector math geometry
+- Custom AR overlay scaling
+
+---
+
+## Roadmap
+
+- Automatic corner detection
+- Real 3D watch models
+- LIDAR integration (future)
+- Community watch database
+- Improved fit scoring system
+
+---
+
+## Contributing
+
+Pull requests are welcome.
+Please open an issue first to discuss major changes.
+
+---
+
+## License
+
+MIT License
