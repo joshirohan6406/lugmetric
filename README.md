@@ -51,3 +51,9 @@ Please open an issue first to discuss major changes.
 ## License
 
 MIT License
+
+## Download
+
+You can download the latest Android APK here:
+
+ https://github.com/joshirohan6406/lugmetric/releases
