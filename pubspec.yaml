@@ -1,0 +1,38 @@
+name: lugmetric
+description: Engineering-grade watch fit analysis and AR preview app.
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.1.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  camera: ^0.10.5+9
+  vector_math: ^2.1.4
+
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_launcher_icons: ^0.13.1
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/icon.jpeg
+
+flutter_launcher_icons:
+  android: true
+  ios: false
+  image_path: "assets/icon.jpeg"
+  adaptive_icon_background: "#0D0F14"
+  adaptive_icon_foreground: "assets/icon.jpeg"
